@@ -12,20 +12,20 @@ function mostrar()
 
 	 if (numerorandom>=9)
 	 {
-	 	mensaje="EXCELENTE"
+	 	mensaje="EXCELENTE" 
+	 }
 	 	else
 	 	{
 	 		if(numerorandom>4)
 	 		{
 	 			mensaje="APROBADO"
+	 		}	
 	 			else
 	 			{
 	 				mensaje="Vamos, la proxima se puede"
 	 			}
-	 		}
+	 		
 	 	}
-	 }
-	
-
+	 	alert(mensaje);
 
 }//FIN DE LA FUNCIÓN
